@@ -3,7 +3,7 @@ let quote = document.querySelector('.quote');
 let btn = document.querySelector('#newQuoteBtn');
 
 //Array of quotes
-const allQuotes = ['You have got this', 'The best is yet to come', 'All in good time'];
+const allQuotes = ['You have got this', 'The best is yet to come', 'All in good time', 'Keep going', 'Embrace opportunities'];
 
 // Event handler function
 function generateNewQuote () {
