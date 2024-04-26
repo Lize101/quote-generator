@@ -4,20 +4,24 @@ body {
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
+    background: url('./images/bg3.jpg') center/cover no-repeat;
 }
 
 .container {
     text-align: center;
     margin: 250px auto;
-    width: 500px
+    width: 500px;
+    
 }
 
 /* Quotes */
 
 .textArea {
-    border: 1px solid black;
+    /* border: 1px solid black; */
     border-radius: 5px;
     margin: 50px;
+    background-color: #fff;
+    padding: 5px 10px;
 }
 
 /* Button */
