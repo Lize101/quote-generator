@@ -37,3 +37,13 @@ body {
     border-radius: 5px;
     font-size: 1.1rem;
 }
+
+/* Mobile */
+
+@media (max-width: 432px) {
+
+    body {
+        background: none;
+        background-color:turquoise;
+    }
+}
