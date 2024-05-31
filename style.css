@@ -4,6 +4,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
     background: url('./images/bg3.jpg') center/cover no-repeat;
 }
 
@@ -16,7 +17,7 @@ body {
 /* Heading */
 
 #h1 {
-    font-size: 2.2em;
+    font-size: 2.5em;
 }
 
 /* Quotes */
@@ -29,6 +30,10 @@ body {
     padding: 5px 10px;
 }
 
+.quote {
+    font-size: 1.3rem;
+}
+
 /* Button */
 
 #newQuoteBtn {
@@ -37,15 +42,28 @@ body {
     color: white;
     padding: 10px 30px;
     border-radius: 5px;
-    font-size: 1.1rem;
+    font-size: 1.3rem;
 }
 
 /* Mobile */
 
-@media (max-width: 432px) {
+@media (max-width: 550px) {
 
-    body {
-        background: none;
-        background-color:turquoise;
-    }
+/* body {
+    background: none;
+    background-color:turquoise;
+} */
+
+/* General */
+
+.container {
+    margin: 350px auto;
+}
+
+/* Heading */
+
+#h1 {
+    font-size: 2.2em;
+}
+
 }
